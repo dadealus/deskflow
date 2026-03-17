@@ -308,6 +308,7 @@ jobs:
           fi
 
       - name: Check for unexpected repo changes
+        if: github.repository == 'deskflow/deskflow'
         shell: bash
         run: |
           if [[ `git status --porcelain` ]]; then

@@ -70,10 +70,25 @@ public:
     return delta;
   }
 
-  double getYScrollScale() const { return m_yScrollScale; }
-  double getXScrollScale() const { return m_xScrollScale; }
-  bool getInvertYScroll() const { return m_invertYScroll; }
-  bool getInvertXScroll() const { return m_invertXScroll; }
+  double getYScrollScale() const
+  {
+    return m_yScrollScale;
+  }
+
+  double getXScrollScale() const
+  {
+    return m_xScrollScale;
+  }
+
+  bool getInvertYScroll() const
+  {
+    return m_invertYScroll;
+  }
+
+  bool getInvertXScroll() const
+  {
+    return m_invertXScroll;
+  }
 
 private:
   /**

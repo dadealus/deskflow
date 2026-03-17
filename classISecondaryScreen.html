@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="deskflow-logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Deskflow<span id="projectnumber">&#160;1.26.0.87</span>
+   <div id="projectname">Deskflow<span id="projectnumber">&#160;1.26.0.89</span>
    </div>
    <div id="projectbrief">Keyboard and mouse sharing utility</div>
   </td>
@@ -137,6 +137,10 @@ accessors</h2></td></tr>
 <tr class="memdesc:a068c8fa86136e95a417a83db513513e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Synthesize a mouse wheel event of amount This Implmentation for this method should call <span class="tt"><a class="el" href="#ab9839fd6efd3e24f0a171c02cb656aeb" title="Applies any scroll modfifers to the provided delta, This should only be done inside the subclasses fa...">applyScrollModifier</a></span> before sending the final delta to the system.  <br /></td></tr>
 <tr class="memitem:ab9839fd6efd3e24f0a171c02cb656aeb" id="r_ab9839fd6efd3e24f0a171c02cb656aeb"><td class="memItemLeft"><a class="el" href="Coordinate_8h.html#a926a72b0999cf3a9001b66c38aa4453f">ScrollDelta</a>&#160;</td><td class="memItemRight"><a class="el" href="#ab9839fd6efd3e24f0a171c02cb656aeb">applyScrollModifier</a> (<a class="el" href="Coordinate_8h.html#a926a72b0999cf3a9001b66c38aa4453f">ScrollDelta</a> delta) const</td></tr>
 <tr class="memdesc:ab9839fd6efd3e24f0a171c02cb656aeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies any scroll modfifers to the provided delta, This should only be done inside the subclasses fakeMouseWheel impl.  <br /></td></tr>
+<tr class="memitem:afd7ccd0f8afa2a196f8308b31d902bce" id="r_afd7ccd0f8afa2a196f8308b31d902bce"><td class="memItemLeft">double&#160;</td><td class="memItemRight"><a class="el" href="#afd7ccd0f8afa2a196f8308b31d902bce">getYScrollScale</a> () const</td></tr>
+<tr class="memitem:a5ad3addbd2618a3582e310ab12bc535b" id="r_a5ad3addbd2618a3582e310ab12bc535b"><td class="memItemLeft">double&#160;</td><td class="memItemRight"><a class="el" href="#a5ad3addbd2618a3582e310ab12bc535b">getXScrollScale</a> () const</td></tr>
+<tr class="memitem:abd074c1b3d7dead568cb989138ed0a46" id="r_abd074c1b3d7dead568cb989138ed0a46"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#abd074c1b3d7dead568cb989138ed0a46">getInvertYScroll</a> () const</td></tr>
+<tr class="memitem:a195cc40f9650607ea1a92ec9186f88b0" id="r_a195cc40f9650607ea1a92ec9186f88b0"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a195cc40f9650607ea1a92ec9186f88b0">getInvertXScroll</a> () const</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Secondary screen interface. </p>
@@ -361,6 +365,106 @@ accessors</h2></td></tr>
 </dl>
 
 <p>Implemented in <a class="el" href="classdeskflow_1_1EiScreen.html#a583787da1039080a17b85da9aabff99c">deskflow::EiScreen</a>, <a class="el" href="classMSWindowsScreen.html#ab2e1c07805c3334fe8225c79bb3764e4">MSWindowsScreen</a>, <a class="el" href="classOSXScreen.html#ad55d2f91f3893950200545b42eb715b0">OSXScreen</a>, <a class="el" href="classPlatformScreen.html#a48b99f214ac07346239fc6ac14d59b74">PlatformScreen</a>, and <a class="el" href="classXWindowsScreen.html#ae9b5912820f97b4ed0edcfa6405608bc">XWindowsScreen</a>.</p>
+
+</div>
+</div>
+<a id="a195cc40f9650607ea1a92ec9186f88b0" name="a195cc40f9650607ea1a92ec9186f88b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a195cc40f9650607ea1a92ec9186f88b0">&#9670;&#160;</a></span>getInvertXScroll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ISecondaryScreen::getInvertXScroll </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abd074c1b3d7dead568cb989138ed0a46" name="abd074c1b3d7dead568cb989138ed0a46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd074c1b3d7dead568cb989138ed0a46">&#9670;&#160;</a></span>getInvertYScroll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ISecondaryScreen::getInvertYScroll </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5ad3addbd2618a3582e310ab12bc535b" name="a5ad3addbd2618a3582e310ab12bc535b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ad3addbd2618a3582e310ab12bc535b">&#9670;&#160;</a></span>getXScrollScale()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double ISecondaryScreen::getXScrollScale </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afd7ccd0f8afa2a196f8308b31d902bce" name="afd7ccd0f8afa2a196f8308b31d902bce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd7ccd0f8afa2a196f8308b31d902bce">&#9670;&#160;</a></span>getYScrollScale()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double ISecondaryScreen::getYScrollScale </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
